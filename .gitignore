@@ -1,0 +1,18 @@
+# Ignore virtual environment
+venv/
+
+# Ignore data directory (if you’re not pushing the dataset to GitHub)
+data/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
